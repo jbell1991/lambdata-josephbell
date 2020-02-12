@@ -39,7 +39,7 @@ us_state_abv = {
     'New York': 'NY',
     'North Carolina': 'NC',
     'North Dakota': 'ND',
-    'Northern Mariana Islands':'MP',
+    'Northern Mariana Islands': 'MP',
     'Ohio': 'OH',
     'Oklahoma': 'OK',
     'Oregon': 'OR',
@@ -61,6 +61,68 @@ us_state_abv = {
     'Wyoming': 'WY',
 }
 
+
 def return_state_abv(x):
     return us_state_abv[x]
-    
+
+
+abv_to_state = {
+    'AL': 'Alabama',
+    'AK': 'Alaska',
+    'AZ': 'Arizona',
+    'AR': 'Arkansas',
+    'CA': 'California',
+    'CO': 'Colorado',
+    'CT': 'Connecticut',
+    'DE': 'Delaware',
+    'DC': 'District of Columbia',
+    'FL': 'Florida',
+    'GA': 'Georgia',
+    'HI': 'Hawaii',
+    'ID': 'Idaho',
+    'IL': 'Illinois',
+    'IN': 'Indiana',
+    'IA': 'Iowa',
+    'KS': 'Kansas',
+    'KY': 'Kentucky',
+    'LA': 'Louisiana',
+    'ME': 'Maine',
+    'MD': 'Maryland',
+    'MA': 'Massachusetts',
+    'MI': 'Michigan',
+    'MN': 'Minnesota',
+    'MS': 'Mississippi',
+    'MO': 'Missouri',
+    'MP': 'Northern Mariana Islands',
+    'MT': 'Montana',
+    'NE': 'Nebraska',
+    'NV': 'Nevada',
+    'NH': 'New Hampshire',
+    'NJ': 'New Jersey',
+    'NM': 'New Mexico',
+    'NY': 'New York',
+    'NC': 'North Carolina',
+    'ND': 'North Dakota',
+    'OH': 'Ohio',
+    'OK': 'Oklahoma',
+    'OR': 'Oregon',
+    'PA': 'Pennsylvania',
+    'PR': 'Puerto Rico',
+    'PW': 'Palau',
+    'RI': 'Rhode Island',
+    'SC': 'South Carolina',
+    'SD': 'South Dakota',
+    'TN': 'Tennessee',
+    'TX': 'Texas',
+    'UT': 'Utah',
+    'VT': 'Vermont',
+    'VA': 'Virginia',
+    'WA': 'Washington',
+    'WV': 'West Virginia',
+    'WI': 'Wisconsin',
+    'WY': 'Wyoming',
+}
+
+
+def return_state(x):
+    return abv_to_state[x]
